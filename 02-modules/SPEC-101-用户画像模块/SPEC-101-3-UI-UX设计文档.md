@@ -1,6 +1,6 @@
-# SPEC-101-3 UI/UX 设计文档
+﻿# SPEC-101-3 UI/UX 设计文档
 
-> 模块：用户画像模块 | 服务：`globehive-base:8300` | 版本：v1.0 | 日期：2026-03-29
+> 模块：用户画像模块 | 服务：`{项目名}-base:8300` | 版本：v1.0 | 日期：2026-03-29
 
 ---
 
@@ -8,9 +8,9 @@
 
 | 项目 | 值 |
 |------|-----|
-| Web 路由 | `/globehive/base/userProfile` |
-| Vue 组件 | `src/views/globehive/base/userProfile.vue` |
-| API 模块 | `src/api/globehive/base/index.js` |
+| Web 路由 | `/{项目名}/base/userProfile` |
+| Vue 组件 | `src/views/{项目名}/base/userProfile.vue` |
+| API 模块 | `src/api/{项目名}/base/index.js` |
 | 设计文件 | `SPEC-101.pen` |
 
 ### 页面结构

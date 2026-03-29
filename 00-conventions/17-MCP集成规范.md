@@ -1,4 +1,4 @@
-# MCP 集成规范
+﻿# MCP 集成规范
 
 > 来源：`plans/specs/需求规范-12-MCP集成架构.md`
 
@@ -8,7 +8,7 @@
 
 | 角色 | 说明 |
 |------|------|
-| MCP Host | 承载 AI Agent 的宿主应用（GlobeHive AI） |
+| MCP Host | 承载 AI Agent 的宿主应用（{项目名}） |
 | MCP Client | 负责发现、连接、调用 MCP Server |
 | MCP Server | 对外暴露 Tool / Resource / Prompt |
 

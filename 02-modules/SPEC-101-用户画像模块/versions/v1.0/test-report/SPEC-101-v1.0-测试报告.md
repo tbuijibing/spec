@@ -1,4 +1,4 @@
-# SPEC-101 v1.0 测试报告
+﻿# SPEC-101 v1.0 测试报告
 
 > 模块：用户画像模块 | 版本：v1.0 | 测试日期：2026-03-29
 > 测试人：Cascade | 测试类型：功能测试 + API 测试 + 安全测试
@@ -11,8 +11,8 @@
 |------|-----|
 | 后端网关 | http://localhost:8080 |
 | 前端地址 | http://localhost:8000 |
-| 服务 | globehive-base:8300 |
-| 数据库 | localhost:3306/globehive |
+| 服务 | {项目名}-base:8300 |
+| 数据库 | localhost:3306/{项目名} |
 | 测试账号 | admin / Admin@2026（租户 000000） |
 
 ---
@@ -22,7 +22,7 @@
 | 步骤 | 操作 | 结果 | 截图 |
 |------|------|------|------|
 | Step 1 | 确认 Nacos、MySQL、服务、前端均正常运行 | ✅ | — |
-| Step 2 | 打开 /globehive/base/userProfile 页面 | ✅ 正常渲染，无白屏 | 01-user-list.png |
+| Step 2 | 打开 /{项目名}/base/userProfile 页面 | ✅ 正常渲染，无白屏 | 01-user-list.png |
 | Step 3 | 新增用户画像（填写姓名/性别/生日/职业）| ✅ 成功创建，完整度 25 | 02-user-form.png |
 | Step 4 | 搜索关键词"张三"，筛选出对应用户 | ✅ 搜索结果正确 | — |
 | Step 5 | 翻页至第 2 页 | ✅ 分页正常 | — |

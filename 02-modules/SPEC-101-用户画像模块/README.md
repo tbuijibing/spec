@@ -1,6 +1,6 @@
-# SPEC-101 用户画像模块 — 文档导航
+﻿# SPEC-101 用户画像模块 — 文档导航
 
-> 服务：`globehive-base:8300` | 数据库表：`ai_user_profile` | 当前版本：v1.0
+> 服务：`{项目名}-base:8300` | 数据库表：`ai_user_profile` | 当前版本：v1.0
 
 ---
 
